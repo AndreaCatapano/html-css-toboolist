@@ -1,0 +1,143 @@
+
+/*****Reset Section******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****General Option******/
+
+body{
+    background-color: rgba(246, 248, 249, 1) ;
+}
+
+.mpb-deafult{
+    margin-bottom: 20px ;
+    margin-left: 40px;
+}
+
+/*****Header Section******/
+
+
+.header-cointainer{
+    background-color: rgba(255, 255, 255, 1);
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+h1{
+    display: inline-block;
+}
+
+
+/*****Main Section******/
+
+.main-cointainer{
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 4px;
+}
+
+
+
+.add-button{
+    display: inline-block;
+    border: 1px solid rgba(209, 215, 219, 1);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 5px 10px;
+}
+
+#task{
+    background-color: rgba(20, 170, 245, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-left: 40px;
+}
+
+#section{
+    color: rgba(209, 215, 219, 1);
+}
+
+hr{
+    border: none;
+    border-top: 3px solid rgba(246, 248, 249, 1);
+
+    margin-bottom: 20px;
+}
+
+/*****To Do Line Section******/
+
+.todo-line{
+    padding: 10px 0;
+}
+
+.check-mark-positive{
+    width: 20px;
+    height: 20px;
+    color: green;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.check-mark-negative{
+    width: 20px;
+    height: 20px;
+    color: red;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: large;
+    padding: 3px; 
+}
+
+.todo-line-text{
+    display: inline-block;
+    font-size: large;
+    color: rgba(67, 72, 81, 1);
+    margin: 0 10px;
+}
+
+.todo-tag {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: small;
+    color: white;
+}
+
+.editorial {
+    background-color: rgba(9, 169, 237, 1);
+    border-color: rgba(9, 169, 237, 1);
+}
+
+.q1-goals {
+    background-color:rgba(171, 93, 230, 1);
+    border-color: rgba(171, 93, 230, 1);
+}
+
+.rectruing{
+    background-color: rgba(44, 198, 171, 1);
+    border-color: rgba(44, 198, 171, 1);
+}
+
+.mobile{
+    background-color: rgba(255, 155, 0, 1);
+    border-color: rgba(255, 155, 0, 1);
+}
+
+.website{
+    background-color: rgba(236, 74, 157, 1);
+    border-color: rgba(236, 74, 157, 1);
+}
+
+.sales{
+    background-color:rgba(163, 209, 22, 1) ;
+    border-color: rgba(163, 209, 22, 1);
+}

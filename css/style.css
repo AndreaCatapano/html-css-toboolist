@@ -11,25 +11,34 @@
 
 body{
     background-color: rgba(246, 248, 249, 1) ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mpb-deafult{
     margin-bottom: 20px ;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 /*****Header Section******/
 
-
-.header-cointainer{
+header{
+    margin-bottom: 60px;
     background-color: rgba(255, 255, 255, 1);
+}
+.header-cointainer{
     height: 100px;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-left: 30px;
 }
 
+.logo{
+    vertical-align: middle;
+}
 
 h1{
     display: inline-block;
+    font-size: 48px;
+    vertical-align: middle;
 }
 
 
@@ -55,7 +64,7 @@ h1{
 #task{
     background-color: rgba(20, 170, 245, 1);
     color: rgba(255, 255, 255, 1);
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 #section{
@@ -92,7 +101,6 @@ hr{
     display: inline-block;
     border: 1px solid red;
     border-radius: 50%;
-    font-size: large;
     padding: 3px; 
 }
 
